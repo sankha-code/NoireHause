@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+    
+}
+.container1{
+    border:2px solid black;
+    width:90%;
+    max-width: 1200px;
+   
+    margin: auto;
+
+
+
+}
+.container1a {
+border: 2px solid green;
+display: flex;
+justify-content: space-between;
+}
+.container1a aside{
+    border: 2px solid firebrick;
+    width: 70vw;
+    padding: 10%;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+aside h1{
+    border: 2px solid rgb(211, 17, 17);
+    padding:50px 20px;
+    margin-bottom:-80px
+}
+aside p{
+    margin-top:-50px;
+    border: 2px solid rgb(5, 204, 240);
+    padding:50px
+}
