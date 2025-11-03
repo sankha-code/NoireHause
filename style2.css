@@ -7,16 +7,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
-    margin: 0;
+    min-height: 100vh;
+    margin: auto;
     background-color: antiquewhite;
+    overflow: scroll;
     
 }
 .container1{
     border:2px solid black;
     width:90%;
     max-width: 1200px;
-   
     margin: auto;
 
 
@@ -39,9 +41,56 @@ aside h1{
     border: 2px solid rgb(211, 17, 17);
     padding:50px 20px;
     margin-bottom:-80px
+    
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: xx-large;
+
 }
 aside p{
     margin-top:-50px;
     border: 2px solid rgb(5, 204, 240);
-    padding:50px
+    padding:50px 20px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.container2{
+    border: 2px solid violet;
+    width:90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container2a{
+    border:2px solid rgb(0, 0, 175);
+    padding:20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+   
+}
+.container2a #heading{
+    border: 2px dashed green;
+    text-align: center;
+    
+}
+.container2a p{
+    border:2px solid cornflowerblue;
+    
+}
+.container2a1{
+    border:2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.container2a1 #describe1{
+    border: 2px dashed blue;
+}
+#img2{
+    border:2px solid chartreuse;
+    
 }
